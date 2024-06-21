@@ -21,9 +21,9 @@ func main() {
 		os.Exit(-1)
 	}
 
-	token := os.Getenv("TOKEN")
-	if token == "" {
-		slog.Error("TOKEN environment variable not set")
+	key_path := os.Getenv("KEY_PATH")
+	if key_path == "" {
+		slog.Error("KEY_PATH environment variable not set")
 		os.Exit(-1)
 	}
 
@@ -34,8 +34,8 @@ func main() {
 	}
 
 	client, err := gotransip.NewClient(gotransip.ClientConfiguration{
-		AccountName: accountName,
-		Token:       token,
+		AccountName:    accountName,
+		PrivateKeyPath: key_path,
 	})
 	if err != nil {
 		slog.Error("Error creating transip client:", err)
