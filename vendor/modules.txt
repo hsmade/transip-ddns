@@ -1,0 +1,8 @@
+# github.com/transip/gotransip/v6 v6.24.0
+## explicit; go 1.20
+github.com/transip/gotransip/v6
+github.com/transip/gotransip/v6/authenticator
+github.com/transip/gotransip/v6/domain
+github.com/transip/gotransip/v6/jwt
+github.com/transip/gotransip/v6/repository
+github.com/transip/gotransip/v6/rest
