@@ -6,5 +6,7 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/transip/gotransip/v6 v6.24.0 h1:QaHgRT3ikpMCXr8Ntojiced/W4izd9ra9PNE/i+7qTE=
 github.com/transip/gotransip/v6 v6.24.0/go.mod h1:x0/RWGRK/zob817O3tfO2xhFoP1vu8YOHORx6Jpk80s=
+github.com/transip/gotransip/v6 v6.28.0 h1:m7DGEMlCygJQZAduPnOGbM0s39uhofPAKMqDA/r8TrQ=
+github.com/transip/gotransip/v6 v6.28.0/go.mod h1:oXUgrMa9ZfYlQ77RYQukwO2hQwew6HCJbXC0XBn0ZmY=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
