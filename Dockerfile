@@ -1,4 +1,4 @@
-FROM golang:1.22.4 as base
+FROM golang:1.27.1 as base
 WORKDIR /app
 COPY . .
 RUN CGO_ENABLED=0 go build -o transip-ddns cmd/transip-ddns/main.go
